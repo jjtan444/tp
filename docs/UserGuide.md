@@ -13,6 +13,7 @@ Here are some shortcuts to get help:
 * To set up HR Pro Max++, go to our [Quick start section](#quick-start).
 * If you are unsure of the terminology, check our [Glossary section](#glossary).
 * To see how all our commands work, do head to our [Features section](#features).
+
 --------------------------------------------------------------------------------------------------------------------
 
 ## **Table of Contents**
@@ -341,6 +342,7 @@ Warning !!!:
 | **TAG**              | _Field for additional information_ <br> - Only alphanumeric characters are allowed. <br> - Tags are optional, allow multiple words and have a limit of 50 characters. Spaces are allowed but not an empty tag unless you are using the edit commands. |
 
 [Back to top](#table-of-contents)
+
 --------------------------------------------------------------------------------------------------------------------
 
 
