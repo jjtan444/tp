@@ -670,6 +670,7 @@ This section contains summary tables of all the commands you can use in HR Pro M
 | **Sort Projects**         | `sortproj`                                                                                           |
 | **List Project and Task** | `list`                                                                                               |
 
+<div style="page-break-after: always;"></div>
 ### Staff Commands Summary
 
 | Action              | Format, Examples                                                                                             |
@@ -706,7 +707,7 @@ This section contains summary tables of all the commands you can use in HR Pro M
 [Back to top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------------------------
-
+<div style="page-break-after: always;"></div>
 ## **Prefix Summary**
 Prefixes that start with `p` are for Project details.
 
