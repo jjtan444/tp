@@ -15,6 +15,7 @@ Here are some shortcuts to get help:
 * To see how all our commands work, do head to our [Features section](#features).
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## **Table of Contents**
 
@@ -660,38 +661,38 @@ This section contains a summary of all the commands and prefixes in HR Pro Max++
 This section contains summary tables of all the commands you can use in HR Pro Max++.
 ### Project Commands Summary
 
-| Action                    | Format, Examples                                                                                   |
-|---------------------------|----------------------------------------------------------------------------------------------------|
-| **Add Project**           | `addproj pn/PROJECT_NAME  [t/TAG]…​` <br> e.g. `addproj pn/Duke pd/2022-10-25 pb/10000 t/funz`     |
-| **Delete Project**        | `delproj INDEX`<br> e.g. `delproj 3`                                                               |
+| Action                    | Format, Examples                                                                                     |
+|---------------------------|------------------------------------------------------------------------------------------------------|
+| **Add Project**           | `addproj pn/PROJECT_NAME  [t/TAG]…​` <br> e.g. `addproj pn/Duke pd/2022-10-25 pb/10000 t/funz`       |
+| **Delete Project**        | `delproj INDEX`<br> e.g. `delproj 3`                                                                 |
 | **Edit Project**          | `editproj INDEX [pn/PROJECT_NAME] [pd/PROJECT_DEADLINE]…​`<br> e.g.`editproj 2 pn/Roofus pb/1350000` |
-| **Find Projects**         | `findproj KEYWORD`<br> e.g. `findproj Duke`                                                        |
-| **Sort Projects**         | `sortproj`                                                                                         |
-| **List Project and Task** | `list`                                                                                             |
+| **Find Projects**         | `findproj KEYWORD`<br> e.g. `findproj Duke`                                                          |
+| **Sort Projects**         | `sortproj`                                                                                           |
+| **List Project and Task** | `list`                                                                                               |
 
 ### Staff Commands Summary
 
-| Action              | Format, Examples                                                                                          |
-|---------------------|-----------------------------------------------------------------------------------------------------------|
-| **Add Staff**       | `addstaff INDEX sn/STAFF_NAME…​` <br> e.g. `addstaff 1 sn/DEXTER sl/true sd/HR st/HR manager sp/98019345` |
-| **Delete Staff**    | `delstaff INDEX pn/PROJECT_NAME` <br> e.g. `delstaff 1 pn/Duke`                                           |
+| Action              | Format, Examples                                                                                             |
+|---------------------|--------------------------------------------------------------------------------------------------------------|
+| **Add Staff**       | `addstaff INDEX sn/STAFF_NAME…​` <br> e.g. `addstaff 1 sn/DEXTER sl/true sd/HR st/HR manager sp/98019345`    |
+| **Delete Staff**    | `delstaff INDEX pn/PROJECT_NAME` <br> e.g. `delstaff 1 pn/Duke`                                              |
 | **Edit Staff**      | `editstaff INDEX pn/PROJECT_NAME [sn/STAFF_NAME]…​`<br> e.g.`editstaff 1 pn/CS2103T TP sp/98765432 sl/false` |
-| **Find Staff**      | `findstaff KEYWORD`<br> e.g. `findstaff Duke`                                                             |
-| **View Staff list** | `view INDEX` <br> e.g. `view 1`                                                                           |
+| **Find Staff**      | `findstaff KEYWORD`<br> e.g. `findstaff Duke`                                                                |
+| **View Staff list** | `view INDEX` <br> e.g. `view 1`                                                                              |
 
 
 ### Task Commands Summary
 
-| Action                         | Format, Examples                                                                                                         |
-|--------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| **Add Task**                   | `addtask tdesc/TASK_DESCRIPTION td/TASK_DEADLINE` <br> e.g. `addtask tdesc/Edit user guide td/2022-10-28`                |
-| **Delete Task**                | `deltask INDEX` <br> e.g. `deltask 1`                                                                                    |
+| Action                         | Format, Examples                                                                                                             |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **Add Task**                   | `addtask tdesc/TASK_DESCRIPTION td/TASK_DEADLINE` <br> e.g. `addtask tdesc/Edit user guide td/2022-10-28`                    |
+| **Delete Task**                | `deltask INDEX` <br> e.g. `deltask 1`                                                                                        |
 | **Edit Task**                  | `edittask INDEX [tdesc/TASK_DESCRIPTION] [td/TASK_DEADLINE]` <br> e.g. `edittask 1 tdesc/Edit Developer guide td/2022-10-25` |
-| **Find Tasks**                 | `findtask KEYWORDS`<br> e.g. `findtask GAME Try`                                                                         |
-| **Sort Tasks by deadline**     | `sorttask`                                                                                                               |
-| **Sort Tasks by completeness** | `sortcomplete`                                                                                                           |
-| **Mark Tasks**                 | `marktask INDEX` <br> e.g. `marktask 1`                                                                                  |
-| **Unmark Tasks**               | `unmarktask INDEX`<br> e.g. `unmarktask 1`                                                                               |
+| **Find Tasks**                 | `findtask KEYWORDS`<br> e.g. `findtask GAME Try`                                                                             |
+| **Sort Tasks by deadline**     | `sorttask`                                                                                                                   |
+| **Sort Tasks by completeness** | `sortcomplete`                                                                                                               |
+| **Mark Tasks**                 | `marktask INDEX` <br> e.g. `marktask 1`                                                                                      |
+| **Unmark Tasks**               | `unmarktask INDEX`<br> e.g. `unmarktask 1`                                                                                   |
 
 
 ### General Commands Summary
