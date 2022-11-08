@@ -12,7 +12,7 @@ If you can type fast, you will be able to make the most of HR Pro Max++, and get
 Here are some shortcuts to get help:
 * To set up HR Pro Max++, go to our [Quick start section](#quick-start).
 * If you are unsure of the terminology, check our [Glossary section](#glossary).
-* To see how all our commands work, do head to our [Features section](#features).
+* To see how all our commands work, head to our [Features section](#features).
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
