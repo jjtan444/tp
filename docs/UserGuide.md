@@ -23,7 +23,6 @@ Here are some shortcuts to get help:
 
 -------------------------------------------------------------------------------------------------------------------- 
 <div style="page-break-after: always;"></div>
-
 ## **Glossary**
 In this User Guide, there might some terms unknown to you. We have provided elaboration on some
 of these terms in the hopes that it will clear your doubts.
@@ -37,7 +36,6 @@ of these terms in the hopes that it will clear your doubts.
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
-
 ## **Quick start**
 
 1. Ensure you have Java `11` or above is installed in your Computer. Please kindly refer to [this guide](https://blog.hubspot.com/website/check-java-verison) for further instructions on how to do so.
@@ -63,7 +61,6 @@ of these terms in the hopes that it will clear your doubts.
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
-
 ## **User Interface**
 Our app's user interface is divided into 5 main parts:
 1. [Command Box](#command-box)
@@ -75,7 +72,6 @@ Our app's user interface is divided into 5 main parts:
 ![Ui](images/UiLabelled.png)
 
 <div style="page-break-after: always;"></div>
-
 ### Command Box
 The command box is where you can type in your commands.
 ![Command Box](images/CommandBox.png)
@@ -92,7 +88,6 @@ Some example commands you can try:
 * **`exit`** : Exits the app.
 
 <div style="page-break-after: always;"></div>
-
 ### Result Display
 The result display is where the output of your commands will be shown.
 For example, entering an incorrect `addproj` command like shown below will cause an error message to be displayed in the result display.
@@ -100,7 +95,6 @@ For example, entering an incorrect `addproj` command like shown below will cause
 ![Result Display](images/ResultDisplay.png)
 
 <div style="page-break-after: always;"></div>
-
 ### Task Panel
 This section in the user interface displays the list of Tasks that you have entered into the app.
 For information on all commands that are related to Tasks, refer to the [Task Commands](#task-commands) section.
@@ -108,7 +102,6 @@ For information on all commands that are related to Tasks, refer to the [Task Co
 ![Task Panel](images/TaskPanel.png)
 
 <div style="page-break-after: always;"></div>
-
 ### Project Panel
 This section in the user interface displays the list of Projects that you have entered into the app.
 When first starting the program, the `Project` list will contain some sample data as shown.
@@ -117,7 +110,6 @@ For information on all commands that are related to Projects, refer to the [Proj
 ![Project Panel](images/ProjectPanel.png)
 
 <div style="page-break-after: always;"></div>
-
 ### Staff Panel
 This section in the user interface displays the list of Staff that you have entered into the app.
 When first starting the program, the `Staff` list will be empty by default.
@@ -130,7 +122,6 @@ For information on all commands that are related to Staff, refer to the [Staff C
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
-
 # **Features**
 
 <div markdown="block" class="alert alert-info">
@@ -168,7 +159,6 @@ For information on all commands that are related to Staff, refer to the [Staff C
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
-
 ## **Project Commands**
 This section contains information regarding all the commands that can be used to manage Projects.
 
@@ -186,7 +176,6 @@ This is a description of the different parameters for Projects.
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
-
 ### Adding a Project : `addproj`
 
 Adds a Project to Project list.
@@ -223,7 +212,6 @@ Format: `list`
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
-
 ### Finding Projects : `findproj`
 
 Finds all Projects whose names match any of the specified keywords (case-insensitive) and displays them as a list with INDEX numbers.
