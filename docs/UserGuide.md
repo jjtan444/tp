@@ -269,6 +269,7 @@ Examples:
 [Back to Project Glossary](#project-glossary)
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 ### Deleting a Project : `delproj`
 
 Deletes the Project at the specified `INDEX` from the Project list.
@@ -304,7 +305,7 @@ Warning !!!:
   - Failing to do so may result in the Staff commands not working as intended.
 ```
 
-
+<div style="page-break-after: always;"></div>
 ### Staff Glossary
 
 | Parameter            | _Description_, Constraints                                                                                                                                                                                                                            |
@@ -403,6 +404,7 @@ Examples:
 [Back to top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 ### Editing a Staff member within a Project : `editstaff`
 
 Edits the Staff details of a Staff in the Project which has its name specified.
@@ -519,6 +521,7 @@ Examples:
 [Back to Task Glossary](#task-glossary)
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 ### Editing a Task : `edittask`
 
 Edits the task at the specified `INDEX` in the currently displayed Task list. Existing values will be updated to the input values.
@@ -581,13 +584,13 @@ Format: `sorttask`
 <div style="page-break-after: always;"></div>
 ### Sorting the Task list by whether its complete : `sortcomplete`
 
+Sorts all Tasks in displayed Task list by completion status. Incomplete tasks will be placed first.
+
 ```yaml
 Warning !!!:
   - This command is irreversible, you will not be able to get back the original ordering
     after this command.
 ```
-
-Sorts all Tasks in displayed Task list by completion status. Incomplete tasks will be placed first.
 
 Format: `sortcomplete`
 
@@ -652,6 +655,7 @@ Format: `exit`
 [Back to top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 ### Clearing all Data : `clear`
 
 Clears **all data** from HR Pro Max++.
@@ -702,7 +706,7 @@ This section contains summary tables of all the commands you can use in HR Pro M
 | **Find Staff**      | `findstaff KEYWORD`<br> e.g. `findstaff Duke`                                                                |
 | **View Staff list** | `view INDEX` <br> e.g. `view 1`                                                                              |
 
-
+<div style="page-break-after: always;"></div>
 ### Task Commands Summary
 
 | Action                         | Format, Examples                                                                                                             |
