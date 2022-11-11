@@ -322,7 +322,7 @@ Warning !!!:
 Adds a Staff member into the Project at the specified `INDEX`.
 
 
-Format: `addstaff INDEX sn/STAFF_NAME sl/LEAVE_STATUS sd/STAFF_DEPARTMENT st/STAFF_TITLE sp/STAFF_PHONE [t/TAGS]`
+Format: `addstaff INDEX sn/STAFF_NAME sl/LEAVE_STATUS sd/STAFF_DEPARTMENT st/STAFF_TITLE sp/STAFF_PHONE [t/TAGS]…​`
 
 ```yaml
 Note:
@@ -405,8 +405,8 @@ Examples:
 Edits the Staff details of a Staff in the Project which has its name specified.
 The Project must be in the currently displayed Project list for this command to work as expected.
 
-Format: `editstaff INDEX pn/PROJECT_NAME [sn/STAFF_NAME sl/LEAVE_STATUS sd/STAFF_DEPARTMENT st/STAFF_TITLE sp/STAFF_PHONE 
-t/TAGS]`
+Format: `editstaff INDEX pn/PROJECT_NAME [sn/STAFF_NAME] [sl/LEAVE_STATUS] [sd/STAFF_DEPARTMENT] [st/STAFF_TITLE] [sp/STAFF_PHONE] 
+[t/TAGS]…​`
 
 ```yaml
 Note:
@@ -679,25 +679,25 @@ This section contains a summary of all the commands and prefixes in HR Pro Max++
 This section contains summary tables of all the commands you can use in HR Pro Max++.
 ### Project Commands Summary
 
-| Action                    | Format, Examples                                                                                                                    |
-|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| **Add Project**           | `addproj pn/PROJECT_NAME pb/PROJECT_BUDGET pd/PROJECT_DEADLINE [t/TAG]…​` <br> e.g. `addproj pn/Duke pd/2022-10-25 pb/10000 t/funz` |
-| **Delete Project**        | `delproj INDEX`<br> e.g. `delproj 3`                                                                                                |
-| **Edit Project**          | `editproj INDEX [pn/PROJECT_NAME] [pb/PROJECT_BUDGET] [pd/PROJECT_DEADLINES] [t/TAG]…​`<br> e.g.`editproj 2 pn/Roofus pb/1350000`   |
-| **Find Projects**         | `findproj KEYWORD [MORE_KEYWORDS]`<br> e.g. `findproj Duke`                                                                         |
-| **Sort Projects**         | `sortproj`                                                                                                                          |
-| **List Project and Task** | `list`                                                                                                                              |
+| Action                    | Format, Examples                                                                                                                                                                   |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Add Project**           | `addproj pn/PROJECT_NAME pb/PROJECT_BUDGET pd/PROJECT_DEADLINE [t/TAG]…​` <br> e.g. `addproj pn/Duke pd/2022-10-25 pb/10000 t/funz`                                                |
+| **Delete Project**        | `delproj INDEX`<br> e.g. `delproj 3`                                                                                                                                               |
+| **Edit Project**          | `editproj INDEX [pn/PROJECT_NAME] [pb/PROJECT_BUDGET] [pd/PROJECT_DEADLINES] [t/TAG]…​`<br>Note: At least 1 optional field is required. <br> e.g.`editproj 2 pn/Roofus pb/1350000` |
+| **Find Projects**         | `findproj KEYWORD [MORE_KEYWORDS]`<br> e.g. `findproj Duke`                                                                                                                        |
+| **Sort Projects**         | `sortproj`                                                                                                                                                                         |
+| **List Project and Task** | `list`                                                                                                                                                                             |
 
 <div style="page-break-after: always;"></div>
 ### Staff Commands Summary
 
-| Action              | Format, Examples                                                                                                                                                                    |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Add Staff**       | `addstaff INDEX sn/STAFF_NAME sl/LEAVE_STATUS sd/STAFF_DEPARTMENT st/STAFF_TITLE sp/STAFF_PHONE [t/TAGS]` <br> e.g. `addstaff 1 sn/DEXTER sl/true sd/HR st/HR manager sp/98019345`  |
-| **Delete Staff**    | `delstaff INDEX pn/PROJECT_NAME` <br> e.g. `delstaff 1 pn/Duke`                                                                                                                     |
-| **Edit Staff**      | `editstaff INDEX pn/PROJECT_NAME [sn/STAFF_NAME sl/LEAVE_STATUS sd/STAFF_DEPARTMENT st/STAFF_TITLE sp/STAFF_PHONE t/TAGS]`<br> e.g.`editstaff 1 pn/CS2103T TP sp/98765432 sl/false` |
-| **Find Staff**      | `findstaff KEYWORD [MORE_KEYWORDS]`<br> e.g. `findstaff Duke`                                                                                                                       |
-| **View Staff list** | `view INDEX` <br> e.g. `view 1`                                                                                                                                                     |
+| Action              | Format, Examples                                                                                                                                                                                                                                |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Add Staff**       | `addstaff INDEX sn/STAFF_NAME sl/LEAVE_STATUS sd/STAFF_DEPARTMENT st/STAFF_TITLE sp/STAFF_PHONE [t/TAGS]…​` <br> e.g. `addstaff 1 sn/DEXTER sl/true sd/HR st/HR manager sp/98019345`                                                            |
+| **Delete Staff**    | `delstaff INDEX pn/PROJECT_NAME` <br> e.g. `delstaff 1 pn/Duke`                                                                                                                                                                                 |
+| **Edit Staff**      | `editstaff INDEX pn/PROJECT_NAME [sn/STAFF_NAME] [sl/LEAVE_STATUS] [sd/STAFF_DEPARTMENT] [st/STAFF_TITLE] [sp/STAFF_PHONE] [t/TAGS]…​`<br>Note: At least 1 optional field is required.<br> e.g.`editstaff 1 pn/CS2103T TP sp/98765432 sl/false` |
+| **Find Staff**      | `findstaff KEYWORD [MORE_KEYWORDS]`<br> e.g. `findstaff Duke`                                                                                                                                                                                   |
+| **View Staff list** | `view INDEX` <br> e.g. `view 1`                                                                                                                                                                                                                 |
 
 <div style="page-break-after: always;"></div>
 ### Task Commands Summary
