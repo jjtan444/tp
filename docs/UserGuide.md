@@ -702,16 +702,16 @@ This section contains summary tables of all the commands you can use in HR Pro M
 <div style="page-break-after: always;"></div>
 ### Task Commands Summary
 
-| Action                         | Format, Examples                                                                                                             |
-|--------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| **Add Task**                   | `addtask tdesc/TASK_DESCRIPTION td/TASK_DEADLINE` <br> e.g. `addtask tdesc/Edit user guide td/2022-10-28`                    |
-| **Delete Task**                | `deltask INDEX` <br> e.g. `deltask 1`                                                                                        |
-| **Edit Task**                  | `edittask INDEX [tdesc/TASK_DESCRIPTION] [td/TASK_DEADLINE]` <br> e.g. `edittask 1 tdesc/Edit Developer guide td/2022-10-25` |
-| **Find Tasks**                 | `findtask KEYWORD [MORE_KEYWORDS]`<br> e.g. `findtask GAME Try`                                                              |
-| **Sort Tasks by deadline**     | `sorttask`                                                                                                                   |
-| **Sort Tasks by completeness** | `sortcomplete`                                                                                                               |
-| **Mark Tasks**                 | `marktask INDEX` <br> e.g. `marktask 1`                                                                                      |
-| **Unmark Tasks**               | `unmarktask INDEX`<br> e.g. `unmarktask 1`                                                                                   |
+| Action                         | Format, Examples                                                                                                                                                            |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Add Task**                   | `addtask tdesc/TASK_DESCRIPTION td/TASK_DEADLINE` <br> e.g. `addtask tdesc/Edit user guide td/2022-10-28`                                                                   |
+| **Delete Task**                | `deltask INDEX` <br> e.g. `deltask 1`                                                                                                                                       |
+| **Edit Task**                  | `edittask INDEX [tdesc/TASK_DESCRIPTION] [td/TASK_DEADLINE]` <br>Note at least 1 optional field is required.<br> e.g. `edittask 1 tdesc/Edit Developer guide td/2022-10-25` |
+| **Find Tasks**                 | `findtask KEYWORD [MORE_KEYWORDS]`<br> e.g. `findtask GAME Try`                                                                                                             |
+| **Sort Tasks by deadline**     | `sorttask`                                                                                                                                                                  |
+| **Sort Tasks by completeness** | `sortcomplete`                                                                                                                                                              |
+| **Mark Tasks**                 | `marktask INDEX` <br> e.g. `marktask 1`                                                                                                                                     |
+| **Unmark Tasks**               | `unmarktask INDEX`<br> e.g. `unmarktask 1`                                                                                                                                  |
 
 <div style="page-break-after: always;"></div>
 ### General Commands Summary
