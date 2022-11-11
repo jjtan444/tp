@@ -163,8 +163,6 @@ This is a description of the different parameters for Projects.
 | **PROJECT_DEADLINE** | _Deadline of the Project_ <br> - Project deadline should be entered in the YYYY-MM-DD format. <br> - Project deadline should be a valid date. (e.g. 2022-01-35 is invalid because there are only 31 days in January)                                                                                                                              |
 | **TAG**              | _Field for additional information_ <br> - Only alphanumeric characters are allowed. <br> - Tags are optional, allow multiple words and have a limit of 50 characters. <br> - Spaces are allowed but not an empty tag unless you are using the edit commands.                                                                                      |
 
-[Back to top](#table-of-contents)
-
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>### Adding a Project : `addproj`
 
@@ -305,7 +303,6 @@ Warning !!!:
   - Failing to do so may result in the Staff commands not working as intended.
 ```
 
-<div style="page-break-after: always;"></div>
 ### Staff Glossary
 
 | Parameter            | _Description_, Constraints                                                                                                                                                                                                                            |
@@ -316,8 +313,6 @@ Warning !!!:
 | **STAFF_DEPARTMENT** | _Department of Staff_ <br> - Only alphanumeric characters and spaces are allowed. Special characters such as `.`, `'`, or `-` cannot be used. <br> If `-` should be used, replace it with a space instead.                                            |
 | **LEAVE_STATUS**     | _Staff member's leave status_ <br> - Should be specified as a boolean value. Input `true` for a staff member that is on leave, and `false` for one that is present.                                                                                   |
 | **TAG**              | _Field for additional information_ <br> - Only alphanumeric characters are allowed. <br> - Tags are optional, allow multiple words and have a limit of 50 characters. Spaces are allowed but not an empty tag unless you are using the edit commands. |
-
-[Back to top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -476,8 +471,6 @@ This section contains information on all the commands related to Tasks.
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **TASK_DESCRIPTION** | _Description of Task_ <br> - Only alphanumeric characters and spaces are allowed. Special characters such as `.`, `'`, or `-` cannot be used. <br> - No character limit. <br> - Task descriptions must be unique. <br> - If you want to enter two Tasks of the same description, you can add a number behind to uniquely identify them e.g. Meeting2. |
 | **TASK_DEADLINE**    | _Deadline of Task_ <br> - TASK_DEADLINE should be entered in the YYYY-MM-DD format.                                                                                                                                                                                                                                                                   |                                                                                                                                                              
-
-[Back to top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
