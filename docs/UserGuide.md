@@ -720,7 +720,7 @@ This section contains summary tables of all the commands you can use in HR Pro M
 | **Mark Tasks**                 | `marktask INDEX` <br> e.g. `marktask 1`                                                                                      |
 | **Unmark Tasks**               | `unmarktask INDEX`<br> e.g. `unmarktask 1`                                                                                   |
 
-
+<div style="page-break-after: always;"></div>
 ### General Commands Summary
 
 | Action                    | Format, Examples |
