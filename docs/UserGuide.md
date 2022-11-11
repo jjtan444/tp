@@ -498,7 +498,7 @@ Examples:
 
 Deletes a Task at the specified `INDEX` from the Task list.
 
-Format: `delTask INDEX`
+Format: `deltask INDEX`
 
 ```yaml
 Note:
