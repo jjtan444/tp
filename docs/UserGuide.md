@@ -519,6 +519,27 @@ Examples:
 [Back to Task Glossary](#task-glossary)
 
 --------------------------------------------------------------------------------------------------------------------
+### Editing a Task : `edittask`
+
+Edits the task at the specified `INDEX` in the currently displayed Task list. Existing values will be updated to the input values.
+
+Format: `edittask INDEX [td/TASK_DEADLINE] [tdesc/TASK_DESCRIPTION] [t/TAG]…​`
+
+```yaml
+Note:
+  - INDEX must be a positive integer 1, 2, 3, …​
+  - INDEX refers to the numbering of the Task in the displayed Task list.
+  - At least one of the optional fields must be provided.
+```
+
+Examples:
+* `edittask 1 tdesc/Find funding` Edits the task description of the 1st Task to be `Find funding`.
+* `edittask 2 td/2022-10-10` Edits the deadline of the 2nd Task to be `2022-10-10`.
+
+[Back to top](#table-of-contents)<br>
+[Back to Task Glossary](#task-glossary)
+
+--------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always;"></div>
 ### Finding a Task : `findtask`
 
