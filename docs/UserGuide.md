@@ -702,7 +702,7 @@ This section contains summary tables of all the commands you can use in HR Pro M
 <div style="page-break-after: always;"></div>
 ### Task Commands Summary
 
-| Action                         | Format, Examples                                                                                                                                                             |
+| Action                         | Format                                                                                                                                                                       |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Add Task**                   | `addtask tdesc/TASK_DESCRIPTION td/TASK_DEADLINE` <br> e.g. `addtask tdesc/Edit user guide td/2022-10-28`                                                                    |
 | **Delete Task**                | `deltask INDEX` <br> e.g. `deltask 1`                                                                                                                                        |
