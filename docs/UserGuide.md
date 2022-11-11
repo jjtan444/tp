@@ -350,6 +350,7 @@ Examples:
 
 Deletes a Staff member and all their info from the Project which has its name specified.
 The Project must be in the currently displayed Project list for this command to work as expected.
+The Staff must be in the currently displayed Staff List for this command to work as expected.
 
 Format: `delstaff INDEX pn/PROJECT_NAME`
 
@@ -404,6 +405,7 @@ Examples:
 
 Edits the Staff details of a Staff in the Project which has its name specified.
 The Project must be in the currently displayed Project list for this command to work as expected.
+The Staff must be in the currently displayed Staff List for this command to work as expected.
 
 Format: `editstaff INDEX pn/PROJECT_NAME [sn/STAFF_NAME] [sl/LEAVE_STATUS] [sd/STAFF_DEPARTMENT] [st/STAFF_TITLE] [sp/STAFF_PHONE] 
 [t/TAGS]…​`
