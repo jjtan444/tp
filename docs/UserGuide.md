@@ -203,7 +203,7 @@ Format: `list`
 
 Finds all Projects whose names match any of the specified keywords (case-insensitive) and displays them as a list with INDEX numbers.
 
-Format: `findproj KEYWORD [MORE_KEYWORDS]`
+Format: `findproj KEYWORD [MORE_KEYWORDS]…​`
 
 ```yaml
 Note:
@@ -442,7 +442,7 @@ Examples:
 
 Changes the displayed Staff list to contain only Staff members with names that match any of the keywords.
 
-Format: `findstaff KEYWORD [MORE_KEYWORDS]`
+Format: `findstaff KEYWORD [MORE_KEYWORDS]…​`
 
 ```yaml
 Note:
@@ -543,7 +543,7 @@ Examples:
 
 Finds all Tasks which have descriptions matching any of the KEYWORDS.
 
-Format: `findtask KEYWORD [MORE_KEYWORDS]`
+Format: `findtask KEYWORD [MORE_KEYWORDS]…​`
 
 ```yaml
 Note:
@@ -621,7 +621,7 @@ Note:
   - INDEX must be a positive integer 1, 2, 3, …
 ```
 Examples:
-* `unmarktask 2` Marks the second Task as not incomplete.
+* `unmarktask 2` Marks the second Task as not complete.
 
 [Back to top](#table-of-contents)
 
@@ -686,7 +686,7 @@ This section contains summary tables of all the commands you can use in HR Pro M
 | **Add Project**           | `addproj pn/PROJECT_NAME pb/PROJECT_BUDGET pd/PROJECT_DEADLINE [t/TAG]…​` <br> e.g. `addproj pn/Duke pd/2022-10-25 pb/10000 t/funz`                                                |
 | **Delete Project**        | `delproj INDEX`<br> e.g. `delproj 3`                                                                                                                                               |
 | **Edit Project**          | `editproj INDEX [pn/PROJECT_NAME] [pb/PROJECT_BUDGET] [pd/PROJECT_DEADLINES] [t/TAG]…​`<br>Note: At least 1 optional field is required. <br> e.g.`editproj 2 pn/Roofus pb/1350000` |
-| **Find Projects**         | `findproj KEYWORD [MORE_KEYWORDS]`<br> e.g. `findproj Duke`                                                                                                                        |
+| **Find Projects**         | `findproj KEYWORD [MORE_KEYWORDS]…​`<br> e.g. `findproj Duke`                                                                                                                      |
 | **Sort Projects**         | `sortproj`                                                                                                                                                                         |
 | **List Project and Task** | `list`                                                                                                                                                                             |
 
@@ -698,7 +698,7 @@ This section contains summary tables of all the commands you can use in HR Pro M
 | **Add Staff**       | `addstaff INDEX sn/STAFF_NAME sl/LEAVE_STATUS sd/STAFF_DEPARTMENT st/STAFF_TITLE sp/STAFF_PHONE [t/TAGS]…​` <br> e.g. `addstaff 1 sn/DEXTER sl/true sd/HR st/HR manager sp/98019345`                                                            |
 | **Delete Staff**    | `delstaff INDEX pn/PROJECT_NAME` <br> e.g. `delstaff 1 pn/Duke`                                                                                                                                                                                 |
 | **Edit Staff**      | `editstaff INDEX pn/PROJECT_NAME [sn/STAFF_NAME] [sl/LEAVE_STATUS] [sd/STAFF_DEPARTMENT] [st/STAFF_TITLE] [sp/STAFF_PHONE] [t/TAGS]…​`<br>Note: At least 1 optional field is required.<br> e.g.`editstaff 1 pn/CS2103T TP sp/98765432 sl/false` |
-| **Find Staff**      | `findstaff KEYWORD [MORE_KEYWORDS]`<br> e.g. `findstaff Duke`                                                                                                                                                                                   |
+| **Find Staff**      | `findstaff KEYWORD [MORE_KEYWORDS]…​`<br> e.g. `findstaff Duke`                                                                                                                                                                                 |
 | **View Staff list** | `view INDEX` <br> e.g. `view 1`                                                                                                                                                                                                                 |
 
 <div style="page-break-after: always;"></div>
@@ -709,7 +709,7 @@ This section contains summary tables of all the commands you can use in HR Pro M
 | **Add Task**                   | `addtask tdesc/TASK_DESCRIPTION td/TASK_DEADLINE` <br> e.g. `addtask tdesc/Edit user guide td/2022-10-28`                                                                    |
 | **Delete Task**                | `deltask INDEX` <br> e.g. `deltask 1`                                                                                                                                        |
 | **Edit Task**                  | `edittask INDEX [tdesc/TASK_DESCRIPTION] [td/TASK_DEADLINE]` <br>Note: At least 1 optional field is required.<br> e.g. `edittask 1 tdesc/Edit Developer guide td/2022-10-25` |
-| **Find Tasks**                 | `findtask KEYWORD [MORE_KEYWORDS]`<br> e.g. `findtask GAME Try`                                                                                                              |
+| **Find Tasks**                 | `findtask KEYWORD [MORE_KEYWORDS]…​`<br> e.g. `findtask GAME Try`                                                                                                            |
 | **Sort Tasks by deadline**     | `sorttask`                                                                                                                                                                   |
 | **Sort Tasks by completeness** | `sortcomplete`                                                                                                                                                               |
 | **Mark Tasks**                 | `marktask INDEX` <br> e.g. `marktask 1`                                                                                                                                      |
