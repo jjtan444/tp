@@ -702,7 +702,7 @@ This section contains summary tables of all the commands you can use in HR Pro M
 <div style="page-break-after: always;"></div>
 ### Task Commands Summary
 
-| Action                         | Format                                                                                                                                                                       |
+| Action                         | Format, Examples                                                                                                                                                             |
 |--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Add Task**                   | `addtask tdesc/TASK_DESCRIPTION td/TASK_DEADLINE` <br> e.g. `addtask tdesc/Edit user guide td/2022-10-28`                                                                    |
 | **Delete Task**                | `deltask INDEX` <br> e.g. `deltask 1`                                                                                                                                        |
@@ -737,7 +737,7 @@ The prefix `t/` is for tags that are used for Projects and Staff only.
 
 
 
-| Prefix     | Meaning            | Format/ Examples       |
+| Prefix     | Meaning            | Format                 |
 |------------|--------------------|------------------------|
 | **pb/**    | Project budget     | pb/PROJECT_BUDGET      |
 | **pd/**    | Project deadline   | pd/PROJECT_DEADLINE    |
